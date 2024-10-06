@@ -51,7 +51,7 @@ canvas {
     text-align: left;
     line-height: 1.6;
 }
-video {
+iframe {
     width: 95%;
     height: 450px;
     display: block;
