@@ -1,0 +1,52 @@
+body, html {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url(background.jpg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    perspective: 1000px;
+}
+
+canvas {
+    background-color: transparent; 
+    border-radius: 50%; 
+    margin: 0 20px; 
+}
+#moonCanvas{
+    width: 500px;
+    height: 500px;
+}
+#earthCanvas{
+    width: 220px;
+    height: 220px;
+    margin-left: 100px;
+}
+
+p {
+    color: #b3b3b3;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 550px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid #330033;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
